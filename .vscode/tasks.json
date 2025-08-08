@@ -17,7 +17,6 @@
     },
     {
       "label": "CMake Build Debug",
-      "dependsOn": ["CMake Configure"],
       "type": "shell",
       "command": "cmake",
       "args": ["--build", "build", "--config", "Debug"],
@@ -29,7 +28,6 @@
     },
     {
       "label": "CMake Build Release",
-      "dependsOn": ["CMake Configure"],
       "type": "shell",
       "command": "cmake",
       "args": ["--build", "build", "--config", "Release"],
